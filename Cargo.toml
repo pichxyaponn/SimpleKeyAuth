@@ -1,0 +1,9 @@
+[package]
+name = "simpleKeyAuth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+    keyauth = "1.2.0"
+    obfstr = "0.4.3"
+    termion = "4.0.2"
