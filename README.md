@@ -1,6 +1,6 @@
 # แอป KeyAuth โดย Rust
 
-นี่คือโปรเจกต์ที่ใช้ Rust เพื่อสร้างแอปที่เชื่อมต่อกับ KeyAuth API เพื่อจัดการการสมัครสมาชิกและเข้าสู่ระบบ
+นี่คือโปรเจกต์ที่ใช้ Rust เพื่อสร้างแอปที่เชื่อมต่อกับ KeyAuth API สมัครสมาชิกและเข้าสู่ระบบ
 
 ## Requirements
 
@@ -30,17 +30,18 @@
    Copy code
    cargo run
    ```
-2. เลือกตัวเลือก Login หรือ Register
+2. เลือก Login หรือ Register
 
 ## Main Features
 
 - **Login**: ใช้ชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ.
 - **Register**: สมัครสมาชิกใหม่โดยใช้ชื่อผู้ใช้ รหัสผ่าน และ License.
-- **Set Variable**: ตั้งค่าตัวแปร และแสดงค่า.
+- **Set Variable**: ตั้งค่าตัวแปร
+- **Get Variable**: รับค่าตัวแปร.
 
 ## Support
 
-หากคุณพบปัญหาหรือมีคำแนะนำ โปรดสร้าง Issue หรือ Pull Request ใน GitHub repository นี้.
+หากมีปัญหาหรือมีคำแนะนำ ให้สร้าง Issue หรือ Pull Request ใน GitHub repository นี้.
 
 ## Contributors
 
